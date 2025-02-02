@@ -14,7 +14,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     url: jdbc:mysql://localhost:3306/dcbapp
-    password: '1234'
+    password: 'password'  //your password
   application:
     name: springbootlearn
   jpa:
@@ -34,7 +34,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     url: jdbc:mysql://localhost:3306/dcbapp_qa
-    password: '1234'
+    password: 'password'  //your password'
   application:
     name: springbootlearn
   jpa:
@@ -61,7 +61,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     url: jdbc:mysql://localhost:3306/dcbapp_prod
-    password: '1234'
+    password: 'password'  //your password
   application:
     name: springbootlearn
   jpa:
